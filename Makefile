@@ -15,4 +15,4 @@ run: ## Runs main program
 
 .PHONY: test
 test: ## run tests
-	pytest -v tests
+	pytest -v --cov tests
